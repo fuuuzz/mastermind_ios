@@ -19,6 +19,9 @@
     UIButton * myCurrentButton;
     int recup[4];//array of number linked to color
     
+    int isClicked;
+    UIAlertView *alert;
+    
     NSArray *styleButton;
     NSArray *currentColorTab;
     NSArray *currentColorTab2;

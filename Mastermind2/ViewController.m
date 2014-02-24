@@ -25,7 +25,7 @@
 	// Do any additional setup after loading the view, typically from a nib.
     
     currentButton = 4;
-    
+
     int i = 0;
     
     numberOfSubmit = 0;
@@ -82,6 +82,15 @@
 
 
 - (IBAction)createRandom:(id)sender {
+    
+    if (isClicked < 4) {
+        alert = [[UIAlertView alloc]initWithTitle: @"Dude..."
+                                          message: @"You need to fill 4 buttons..."
+                                         delegate: self
+                                cancelButtonTitle:@"Cancel"
+                                otherButtonTitles:@"OK",nil];
+        [alert show];
+    } else {
     
     numberOfSubmit++;
     
@@ -172,6 +181,8 @@
                 [histoTab[numberOfSubmit-1][j] setBackgroundColor:currentColor];
 //            }
         }
+        
+    }
    
 //    if (good == 4) {
 //        resultLabel3.text = finalScore;
@@ -335,24 +346,28 @@
     myButton = sender;
     [myButton setBackgroundColor:currentColor];
     recup[0] = currentButton;
+    isClicked++;
 }
 
 - (IBAction)recup2:(id)sender {
     myButton = sender;
     [myButton setBackgroundColor:currentColor];
     recup[1] = currentButton;
+    isClicked++;
 }
 
 - (IBAction)recup3:(id)sender {
     myButton = sender;
     [myButton setBackgroundColor:currentColor];
     recup[2] = currentButton;
+    isClicked++;
 }
 
 - (IBAction)recup4:(id)sender {
     myButton = sender;
     [myButton setBackgroundColor:currentColor];
     recup[3] = currentButton;
+    isClicked++;
 }
 
 @end
