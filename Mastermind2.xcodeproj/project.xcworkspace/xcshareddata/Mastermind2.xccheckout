@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>81C4A3FF-F099-4A02-9F33-111CA7C4A862</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Mastermind2</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>6ED46320-9E8A-4B30-8420-E4AE02F7A07E</key>
+		<string>ssh://github.com/PqBenoit/dipr2.0.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Mastermind2/Mastermind2.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>6ED46320-9E8A-4B30-8420-E4AE02F7A07E</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>ssh://github.com/PqBenoit/dipr2.0.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>6ED46320-9E8A-4B30-8420-E4AE02F7A07E</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>6ED46320-9E8A-4B30-8420-E4AE02F7A07E</string>
+			<key>IDESourceControlWCCName</key>
+			<string>app</string>
+		</dict>
+	</array>
+</dict>
+</plist>
